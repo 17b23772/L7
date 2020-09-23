@@ -5,11 +5,12 @@ bill_total = float(input())
 print("How many people are sharing?")
 people = int(input())
 print("What percentage tip would you like to leave?")
-tip_percentage = int(input())
+tip = int(input())
 
-percentage_decimal = tip_percentage / 100
-tip_total = bill_total * percentage_decimal
-bill_total = bill_total + tip_total
+#percentage_decimal = tip_percentage / 100
+#tip_total = bill_total * percentage_decimal
+#bill_total = bill_total + tip_total
+percent = (tip / 100) * (bill_total + percent) * (bill_total + tip)
 
 cost_per_person = bill_total / people
 
